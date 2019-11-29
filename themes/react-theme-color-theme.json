@@ -136,7 +136,11 @@
 	"tokenColors": [
 		{
 			"name": "Comments",
-			"scope": "comment",
+			"scope": [
+				"comment",
+				"punctuation.definition.comment",
+				"string.quoted.docstring"
+			],
 			"settings": {
 				"foreground": "#b2b2b2"
 			}
@@ -334,18 +338,6 @@
 			"settings": {
 				"foreground": "#d7deea",
 			}
-		},
-		{
-			"name": "Comments",
-			"scope": [
-				"punctuation.definition.comment",
-				"comment.line",
-				"comment.line.double-slash"
-			],
-			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#b2b2b2",
-			}
-		},
+		}
 	]
 }
