@@ -338,6 +338,20 @@
 			"settings": {
 				"foreground": "#d7deea",
 			}
+		},
+		{
+			"name": "Python Variable",
+			"scope": "source.python",
+			"settings": {
+				"foreground": "#ffffff"
+			}
+		},
+		{
+			"name": "Python Constant.Boolean",
+			"scope": "constant.language.python",
+			"settings": {
+				"foreground": "#f99157"
+			}
 		}
 	]
 }
