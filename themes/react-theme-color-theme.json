@@ -352,6 +352,13 @@
 			"settings": {
 				"foreground": "#f99157"
 			}
+		},
+		{
+			"name": "Lua Variable",
+			"scope": "source.lua",
+			"settings": {
+				"foreground": "#ffffff"
+			}
 		}
 	]
 }
