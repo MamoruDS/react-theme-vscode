@@ -142,8 +142,8 @@
 				"string.quoted.docstring"
 			],
 			"settings": {
-				// "foreground": "##ffffffb2"
-				"foreground": "##ffffff40"
+				// "foreground": "#ffffffb2"
+				"foreground": "#ffffff40"
 			}
 		},
 		{
@@ -418,10 +418,10 @@
 		// JSON
 		{
 			"scope": [
-				"punctuation.separator.dictionary.key-value.json"
+				"punctuation.separator.dictionary.key-value.json",
+				"constant.language.json",
 			],
 			"settings": {
-				// "foreground": "#C5A5C5"
 				"foreground": "#f99157"
 			}
 		},

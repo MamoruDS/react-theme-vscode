@@ -2,9 +2,9 @@
     "name": "react-theme-vscode",
     "displayName": "React Theme (M",
     "description": "A forked version of 'React Theme VSCode' which is a theme extension of Visual Studio Code",
-    "version": "1.4.3",
+    "version": "1.4.4",
     "publisher": "MamoruDS",
-    "author": "Mamoru Shinosaki",
+    "author": "",
     "icon": "icon.png",
     "repository": {
         "type": "git",
