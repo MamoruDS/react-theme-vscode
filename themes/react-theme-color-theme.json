@@ -142,7 +142,8 @@
 				"string.quoted.docstring"
 			],
 			"settings": {
-				"foreground": "#b2b2b2"
+				// "foreground": "##ffffffb2"
+				"foreground": "##ffffff40"
 			}
 		},
 		{
@@ -339,6 +340,7 @@
 				"foreground": "#d7deea",
 			}
 		},
+		// Python
 		{
 			"name": "Python Variable",
 			"scope": "source.python",
@@ -353,12 +355,75 @@
 				"foreground": "#f99157"
 			}
 		},
+		// Lua
 		{
 			"name": "Lua Variable",
 			"scope": "source.lua",
 			"settings": {
 				"foreground": "#ffffff"
 			}
-		}
+		},
+		// Javascript
+		{
+			"scope": [
+				"support.constant.json.js",
+				"constant.language.null.js",
+				"support.variable.property.js",
+			],
+			"settings": {
+				"foreground": "#f99157",
+			}
+		},
+		{
+			"scope": [
+				"variable.other.property.js",
+			],
+			"settings": {
+				"foreground": "#c5c5c5",
+			}
+		},
+		{
+			"scope": [
+				"constant.other.character-class.regexp",
+			],
+			"settings": {
+				"foreground": "#fac863",
+			}
+		},
+		// YAML
+		{
+			"scope": [
+				"string.unquoted.plain.out.yaml"
+			],
+			"settings": {
+				"foreground": "#ffffff"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.separator.key-value.mapping.yaml",
+			],
+			"settings": {
+				"foreground": "#c5a5c5"
+			}
+		},
+		{
+			"scope": [
+				"entity.name.tag.yaml"
+			],
+			"settings": {
+				"foreground": "#f99157",
+			}
+		},
+		// JSON
+		{
+			"scope": [
+				"punctuation.separator.dictionary.key-value.json"
+			],
+			"settings": {
+				// "foreground": "#C5A5C5"
+				"foreground": "#f99157"
+			}
+		},
 	]
 }
