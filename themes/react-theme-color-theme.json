@@ -425,5 +425,16 @@
 				"foreground": "#f99157"
 			}
 		},
+		// Typescript
+		{
+			"scope": [
+				"entity.name.type.ts",
+				"meta.type.annotation.ts",
+				"support.type.primitive.ts"
+			],
+			"settings": {
+				"foreground": "#79b6f2"
+			}
+		},
 	]
 }
